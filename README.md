@@ -5,7 +5,7 @@ Simple matrix display component created in JavaScript.
 
 ###Example
 
-[Github.guru](https://github.guru)
+[github.guru](https://github.guru)
 
 ### Usage
 
