@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>        
+        <script type="text/javascript" src="js/matrix-display.js"></script>
+        <script type="text/javascript">
+        	jQuery(document).ready(function() {
+				var dm1 = new MatrixDisplay({
+					repeat: true,
+					containerEl: '#matrix-display1 .matrix-svg',
+					compositions: [
+					{
+					    text: '               hello',
+					    fx: 'none',
+					    invert: false,
+					    speed: 40
+					},
+					{
+					    text: '               world',
+					    fx: 'none',
+					    invert: true,
+					    speed: 40
+					},
+					{
+					    text: '               hello',
+					    fx: 'up',
+					    invert: false,
+					    speed: 80
+					},
+					{
+					    text: '               world',
+					    fx: 'down',
+					    invert: false,
+					    speed: 80
+					}]
+				});
+
+				dm1.run();    
+
+				var dm2 = new MatrixDisplay({
+					repeat: true,
+					containerEl: '#matrix-display2 .matrix-svg',
+					compositions: [
+					{
+					    text: 'Your very long message to display',
+					    fx: 'left',
+					    colors: ['#00B9FD', '#9C00DD', '#0074C5'],
+					    background: '#EEE',
+					    invert: false,
+					    speed: 40
+					},
+					{
+					    text: 'Another very long message to display',
+					    fx: 'left',
+					    colors: ['#00B9FD', '#C63DFF', '#008FF3'],
+					    background: '#00224D',					    
+					    invert: true,
+					    speed: 40
+					}]
+				});
+
+				dm2.run();  				    		
+        	});
+        </script>
+    </head>
+    <body>
+    	<div style="float:left; width:48%">
+	    	<h2>Github style</h2>
+			<div id="matrix-display1" class="">
+				<svg width="721" height="110" class="matrix-svg">
+					<g transform="translate(20, 20)">
+						<g transform="translate(0, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(13, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(26, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(39, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(52, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(65, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(78, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(91, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(104, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(117, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(130, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(143, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(156, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(169, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(182, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(195, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(208, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(221, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(234, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(247, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(260, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(273, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(286, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(299, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(312, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(325, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(338, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(351, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(364, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(377, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(390, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(403, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(416, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(429, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(442, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(455, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(468, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(481, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(494, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(507, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(520, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(533, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(546, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(559, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(572, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(585, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(598, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(611, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(624, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(637, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(650, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(663, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(676, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+					</g>
+				</svg>
+			</div>
+			<pre>
+		var dm1 = new MatrixDisplay({
+			repeat: true,
+			containerEl: '#matrix-display1 .matrix-svg',
+			compositions: [
+			{
+			    text: '               hello',
+			    fx: 'none',
+			    invert: false,
+			    speed: 40
+			},
+			{
+			    text: '               world',
+			    fx: 'none',
+			    invert: true,
+			    speed: 40
+			},
+			{
+			    text: '               hello',
+			    fx: 'up',
+			    invert: false,
+			    speed: 80
+			},
+			{
+			    text: '               world',
+			    fx: 'down',
+			    invert: false,
+			    speed: 80
+			}]
+		});
+
+		dm1.run();  
+			</pre>
+		</div>
+
+		<div style="float:left; width:48%">
+			<h2>Custom palette</h2>
+			<div id="matrix-display2" class="">
+				<svg width="721" height="110" class="matrix-svg">
+					<g transform="translate(20, 20)">
+						<g transform="translate(0, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(13, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(26, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(39, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(52, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(65, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(78, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(91, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(104, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(117, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(130, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(143, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(156, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(169, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(182, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(195, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(208, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(221, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(234, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(247, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(260, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(273, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(286, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(299, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(312, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(325, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(338, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(351, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(364, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(377, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(390, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(403, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(416, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(429, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(442, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(455, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(468, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(481, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(494, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(507, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(520, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(533, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(546, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(559, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(572, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(585, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(598, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(611, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(624, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(637, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(650, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(663, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+						<g transform="translate(676, 0)">
+						  <rect width="11" height="11" y="0" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="13" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="26" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="39" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="52" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="65" fill="#eeeeee"></rect>
+						  <rect width="11" height="11" y="78" fill="#eeeeee"></rect>
+						</g>
+					</g>
+				</svg>
+			</div>
+			<pre>
+	var dm2 = new MatrixDisplay({
+		repeat: true,
+		containerEl: '#matrix-display2 .matrix-svg',
+		compositions: [
+		{
+		    text: 'Your very long message to display',
+		    fx: 'left',
+		    colors: ['#00B9FD', '#9C00DD', '#0074C5'],
+		    background: '#EEE',
+		    invert: false,
+		    speed: 40
+		},
+		{
+		    text: 'Another very long message to display',
+		    fx: 'left',
+		    colors: ['#00B9FD', '#C63DFF', '#008FF3'],
+		    background: '#00224D',					    
+		    invert: true,
+		    speed: 40
+		}]
+	});
+
+	dm2.run();  				
+			</pre>
+		</div>
+		<div style="clear:both;"></div>
+
+    </body>
+</html>
