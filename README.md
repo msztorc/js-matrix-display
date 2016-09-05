@@ -102,19 +102,19 @@ dm.run(compositions);
 
 Animate text
 ```javascript
-var composition = { text: 'Text1', fx: 'left' };
+var composition = { text: 'Some text1', fx: 'left' };
 dm.animateText(composition);
 ```
 
 Animate text
 ```javascript
-var composition = { text: 'Text1', fx: 'left' };
+var composition = { text: 'Some text 2', fx: 'left' };
 dm.animateText(composition);
 ```
 
 Display text
 ```javascript
-dm.displayText({text: 'You text'});
+dm.displayText({text: 'Your text'});
 ```
 
 Get option
@@ -132,5 +132,5 @@ dm.setOption('repeat', true);
 - More effects and additional transitions
 - Additional fonts
 
-###License
+### License
 MIT
