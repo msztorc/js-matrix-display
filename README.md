@@ -3,7 +3,7 @@ Simple matrix display component created in JavaScript.
 
 ![alt text](http://sztorc.com/matrix-display/vFzsV8ufdG.gif "Matrix Display")
 
-###Example
+###Showcase
 
 [github.guru](https://github.guru)
 
